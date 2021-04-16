@@ -10,20 +10,25 @@
 /* <===Media Querie===> */
 @media (max-width: 800px) {
   
+  h1 {
+    margin-top: 1.5rem;
+  }
+
   nav{
     max-width: 100%;
   }
   
 
    .limite-slider {
-    margin-top: 9.49vh;
+    margin-top: 60.3px;
     max-width: 100%;
+    min-height: 18vh;
    }
 
     a.anchor {
     display: block;
     position: relative;
-    top: -39vh;
+    top: -43vh;
     visibility: hidden;
 }
     .hamburger {
